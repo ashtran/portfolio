@@ -1,0 +1,155 @@
+*{
+  padding:  0px;
+  margin: 0px;
+}
+#container{
+  width:970px;
+  font-family:arial;
+  margin:auto;
+  background-color: #4D3842;
+}
+#header{
+    background-color: #fff;
+}
+p.name{
+  display: inline-block;
+  vertical-align: top;
+  font: 25px 'Comic Sans MS';
+  text-align: left;
+  margin: 15px 0px 15px 30px;
+}
+p.note{
+  display: inline-block;
+  vertical-align: top;
+  font: 15px arial;
+  font-weight: bold;
+  text-align: right;
+  margin: 25px 0px 10px 375px;
+}
+#profile{
+  display:inline-block;
+  position:relative;
+  height: 275px;
+  margin:20px;
+}
+#profile img{
+  width: 400px;
+  height: 265px;
+  display: inline-block;
+  position: relative;
+  border: 5px solid #BFC0BF;
+}
+a{
+  color:#000;
+}
+.about{
+  width: 495px;
+  display:inline-block;
+  height:275px;
+  position:relative;
+  vertical-align:top;
+  left:20px;
+}
+.title{
+  display: block;
+  vertical-align: top;
+  font-weight: bold;
+  background: linear-gradient(#C3C5C9,#8D8C98,#C3C5C9);
+  padding: 5px;
+  color:#fff;
+  width:auto;
+  font-size: 16px;
+}
+p.profile{
+  margin-bottom: 5px;
+  padding: 10px;
+  font-size: 14px;
+}
+#main{
+  margin-left: 20px;
+  display:block;
+}
+p.main{
+  padding: 10px;
+  text-align: justify;
+}
+#left{
+  display:inline-block;
+  position: relative;
+  vertical-align: top;
+  width: 300px;
+}
+#middle{
+  display:inline-block;
+  position: relative;
+  vertical-align: top;
+  width: 300px;
+  left: 10px;
+}
+#right{
+  display:inline-block;
+  position: relative;
+  vertical-align: top;
+  width: 300px;
+  left: 20px;
+}
+.block{
+  background: linear-gradient(to right,#FEFFFE,#ECE4EC,#DACAD9);
+}
+.content{
+  display: inline-block;
+  width: inherit;
+  height:325px;
+  position:relative;
+  vertical-align: top;
+  color: #3A3B3C;
+  font-size: 12px;
+}
+.clip img{
+  width:300px;
+  height:150px;
+}
+.tech{
+  display: inline-block;
+  position: relative;
+  height: 200px;
+  width:inherit;
+}
+.tech img{
+  width:41px;
+  height:41px;
+  margin: 5px 5px 5px 7px;
+}
+.tech p{
+  padding:5px;
+}
+.tech button{
+  display: inline-block;
+  position: relative;
+  background-color: #3B765C;
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 5px 5px 5px #A3A3A6;
+  border: 1px solid #000;
+}
+#footer{
+  margin-top: 20px;
+  padding-top: 10px;
+  text-align: center;
+  background-color: #fff;
+}
+#footer p{
+  margin-bottom: 10px;
+}
+#footer img{
+  width: 15px;
+  height: 15px;
+}
+#footer ul{
+  list-style-type: none;
+}
+#footer li{
+  display:inline;
+  padding:2px;
+}
